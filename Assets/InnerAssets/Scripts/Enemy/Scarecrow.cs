@@ -120,7 +120,13 @@ namespace JoyWayTest.Scripts.Enemy
 
         private void CheckHealth()
         {
-            if (CurrentHealth <= 0) Destroy(gameObject);
+            if (CurrentHealth <= 0)
+            {
+                GameObject explode = (GameObject)Instantiate(_explode);
+                explode.transform.position = transform.position + Vector3.up * 1.5f;
+                explode.transform.rotation = transform.rotation;
+                Destroy(gameObject);
+            }
         }
 
         public void Reload()
@@ -130,11 +136,6 @@ namespace JoyWayTest.Scripts.Enemy
             _wet = 0;
             _onFire = false;
             _materials.ForEach(material => material.SetInt(_enableEmissionPropID, 0));
-        }
-
-        private void OnDestroy()
-        {
-            Instantiate(_explode, transform.position, transform.rotation);
         }
     }
 }
