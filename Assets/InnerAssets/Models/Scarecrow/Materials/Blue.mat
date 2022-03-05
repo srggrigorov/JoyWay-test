@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Blue
+  m_Shader: {fileID: -6465566751694194690, guid: 11e8a93016a080744bae814957d83676, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Boolean_52fc12c41a1d4b84b9a90bc37152c776: 0
+    - Vector1_8e395dbe40cc40c9a2124f4f0058be0c: 10
+    - Vector1_ae67231047654c1a9d881d166d8d5502: 0.184
+    - Vector1_cadc16b821cf43b3aee7912348ee0506: 0
+    - Vector1_cadc16b821cf43b3aee7912348ee0506_1: 0.1
+    - Vector1_cadc16b821cf43b3aee7912348ee0506_2: 1
+    - _Alpha: 1
+    - _EmissionEnabled: 0
+    - _FresnelPower: 5
+    - _Metallic: 0.21
+    - _Smoothness: 0.1
+    m_Colors:
+    - Color_efd12cab53684cf79e611855759ed5e3: {r: 0.17501779, g: 0.300574, b: 0.5377358, a: 1}
+    - Color_efd12cab53684cf79e611855759ed5e3_1: {r: 0.047058824, g: 0, b: 2.9960785, a: 1}
+    - _BaseColor: {r: 0.09019608, g: 0.08627451, b: 0.7647059, a: 1}
+    - _EmissionColor: {r: 1, g: 0.6347193, b: 0, a: 1}
+  m_BuildTextureStacks: []
